@@ -59,11 +59,12 @@ instead of asking for hand-holding. For any non-trivial change, follow the loop:
 
 ## Part 2 — Caveman Mode (bundled skill)
 
-Bundled verbatim from the open-source `caveman` skill (JuliusBrussee/caveman,
-`skills/caveman/SKILL.md`). Caveman Mode is a **communication style, off by default**.
-Activate it on the triggers below; revert immediately on "stop caveman" or "normal
-mode". It changes prose style only — every rule in Part 1 still governs the
-engineering work itself.
+Bundled from the open-source `caveman` skill (JuliusBrussee/caveman,
+`skills/caveman/SKILL.md`). Caveman Mode is **always on** — it governs all prose
+output by default. It changes prose style only: every rule in Part 1 still governs
+the engineering work itself, and code, commits, and PR descriptions stay normal (see
+Boundaries). Revert to normal prose only when the user says "stop caveman" or
+"normal mode".
 
 **Skill name:** caveman
 
