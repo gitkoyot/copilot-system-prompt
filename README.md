@@ -14,7 +14,16 @@ alternatives, not layers to stack.
   communication style.
 - **`copilot-instructions-boris-karpathy-caveman.md`** — Part 1 merges the Boris
   Cherny workflow with Andrej Karpathy's behavioral guidelines into one
-  deduplicated set of rules; Part 2 is the always-on Caveman Mode skill.
+  deduplicated set of rules; Part 2 is the always-on Caveman Mode skill. Compared
+  to the other two variants, this one is more cautious: it asks when something is
+  genuinely unclear instead of always proceeding on assumptions.
+
+Maintenance note: Part 1 of `copilot-instructions-with-caveman.md` is a verbatim
+copy of `copilot-instructions.md` — any edit to one must be mirrored in the other.
+
+The guidelines are working if: fewer unnecessary changes in diffs, fewer rewrites
+due to overcomplication, and clarifying questions come before implementation rather
+than after mistakes.
 
 ## How it was created
 
